@@ -1,4 +1,11 @@
 <x-app-layout>
+
+    <div class="bg-image" style="background-image: url('{{ Vite::asset('resources/images/tiedye-background.jpeg') }}');
+    height: 94vh; background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover">
+
+
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
             {{ __('Profile') }}
@@ -26,4 +33,5 @@
             </div>
         </div>
     </div>
+  </div>
 </x-app-layout>
